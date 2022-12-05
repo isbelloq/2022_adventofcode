@@ -5,6 +5,7 @@ ENV HOME=/home/aof
 COPY Makefile  .
 #Agregar dias
 COPY day_01/ day_01/
+COPY day_02/ day_02/
 #Ejecucion
 ENTRYPOINT [ "make" ]
 CMD [ "day1" ]

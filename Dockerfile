@@ -6,6 +6,7 @@ COPY Makefile  .
 #Agregar dias
 COPY day_01/ day_01/
 COPY day_02/ day_02/
+COPY day_03/ day_03/
 #Ejecucion
 ENTRYPOINT [ "make" ]
 CMD [ "day1" ]

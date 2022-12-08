@@ -8,3 +8,5 @@ day4:
 	python day_04/day4.py
 day5:
 	python day_05/day5.py
+day6:
+	python day_06/day6.py

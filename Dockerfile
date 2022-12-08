@@ -8,6 +8,7 @@ COPY day_01/ day_01/
 COPY day_02/ day_02/
 COPY day_03/ day_03/
 COPY day_04/ day_04/
+COPY day_05/ day_05/
 #Ejecucion
 ENTRYPOINT [ "make" ]
 CMD [ "day1" ]

@@ -34,3 +34,11 @@ def num_char_processing(buffer: str, min_char: int = 4) -> int:
 # print(num_char_processing('nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg'))
 # print(num_char_processing('zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw'))
 print(f'Numero de caracteres para ser procesados: {num_char_processing(buffer)}')
+
+# Parte 2
+# print(num_char_processing('mjqjpqmgbljsphdztnvjfqwrcgsmlb', 14))
+# print(num_char_processing('bvwbjplbgvbhsrlpgdmjqwftvncz', 14))
+# print(num_char_processing('nppdvjthqldpwncqszvftbrmjlhg', 14))
+# print(num_char_processing('nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg', 14))
+# print(num_char_processing('zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw', 14))
+print(f'Numero de caracteres para ser procesados: {num_char_processing(buffer, 14)}')
